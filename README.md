@@ -1,5 +1,7 @@
 # ESP32-S2 Instructions
 
+Display some text on a i2c oled display using the esp32 s2.
+
 [Getting Started](https://gist.github.com/askpatrickw/0a276c7e2d4f54e442b2cb6eaa0d32ea)
 
 Reinstall esptool from esp-idf
