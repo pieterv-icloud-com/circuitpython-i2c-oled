@@ -19,7 +19,7 @@ esptool.py --chip esp32s2 --port /dev/tty.SLAB_USBtoUART3 -b 460800 erase_flash
 Flash
 
 ```bash
-esptool.py --chip esp32s2 --port /dev/tty.SLAB_USBtoUART3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x0000 ~/downloads/adafruit-circuitpython-espressif_saola_1_wroom-en_US-6.0.0-beta.1.bin
+esptool.py --chip esp32s2 --port /dev/tty.SLAB_USBtoUART3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x0000 ~/downloads/adafruit-circuitpython-espressif_saola_1_wroom-en_US-6.0.0-rc.0.bin
 ```
 
 Connect to REPL
